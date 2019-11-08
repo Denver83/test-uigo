@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>test-uigo</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="login-signup">
+		<div class="signup__title">
+			<h1>Sign up</h1>
+		</div>
+		<section class="signup__block">
+			<header class="signup__header">
+				<h2 class="login-signup__header__title">New user?</h2>
+				<p class="login-signup__header__text">Use the form below to create your account.</p>
+			</header>
+			<form action="#" class="signup__form">
+				<div class="signup__form__block">
+					<div class="form__block__item">
+						<label for="first-name">First Name</label>
+						<input type="text" id="first-name" class="first-name" value="Alice">
+					</div>
+					<div class="form__block__item">
+						<label for="last-name">Last Name</label>
+						<input type="text" id="last-name" class="last-name" value="Miller">
+					</div>
+					<div class="form__block__item">
+						<label for="nationality">Nationality</label>
+						<input type="text" id="nationality" class="nationality" value="American">
+					</div>
+					<div class="form__block__item">
+						<label for="email">E-mail</label>
+						<input type="text" id="email" class="email" value="alice.miller@yahoo.com">
+					</div>
+					<div class="form__block__item form__block__item--date">
+						<label for="date">Date of Birth</label>
+						<div class="block__item--date__wrapper">
+							<div class="number">
+								<input type="text" id="date" value="21">
+							</div>
+							<div class="month">
+								<input type="text" id="date" class="month" value="December">
+							</div>
+							<div class="year">
+								<input type="text" id="date" class="year" value="1995">
+							</div>
+						</div>
+				  </div>
+				  <div class="gender-block">
+						<label for="gender">Gender</label>
+					  <div class="gender">
+							<div class="gender__wrapper">
+								<input type="radio" id="gender" class="male" name="gender">
+								<p>Male</p>
+							</div>
+							<div class="gender__wrapper">
+								<input type="radio" id="gender" class="female" name="gender" checked>
+								<p>Female</p>
+							</div>
+						</div>
+					</div>
+					<div class="form__block__item">
+						<label for="pass">Password</label>
+						<input type="password" id="pass" class="pass">
+				  </div>
+				  <div class="form__block__item">
+						<label for="confirm">Confirm Password</label>
+						<input type="password" id="confirm" class="confirm">
+					</div>
+				</div>
+				<div class="form__block__btns">
+					<p class="have_acc">Have an account?
+						<a href="#" class="block__btns--login">Login</a>
+					</p>
+					<button class="block__btns--complete" type="submit">Complete Signup</button>
+				</div>
+			</form>
+		</section>
+	</section>
+</body>
+</html>

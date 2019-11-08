@@ -1,0 +1,41 @@
+.login-signup{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60.5px 67px 59.5px 68px;
+ }
+.signup__title{
+	 width: 137.3px;
+	 position: relative;
+	 height: 480px;
+	 background-color: #5a61ed;
+ }
+.signup__title h1{
+	width: 162px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 49px;
+	line-height: 63px;
+	letter-spacing: 0.5px;
+	color: #fff;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+  -webkit-transform-origin: left top 0;
+  -ms-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: absolute;
+  bottom: 22px;
+  left: 68.5px;
+}
+.login-signup__header__title{
+  font-family: Work Sans, sans serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.46px;
+	color: #111111;
+ }
