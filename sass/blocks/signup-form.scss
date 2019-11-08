@@ -9,6 +9,42 @@
 	margin-right: 15.1px;
 	margin-bottom: 16.5px;
 }
+.nationality{
+	position: relative;
+	&::after{
+		content: '';
+		position: absolute;
+		width: 8px;
+		height: 4px;
+		right: 0;
+		top: 31px;
+		background: url(../icons/shape.png) no-repeat;
+	}
+}
+.day{
+	position: relative;
+	&::after{
+		content: '';
+		position: absolute;
+		width: 8px;
+		height: 4px;
+		right: 0;
+		top: 28px;
+		background: url(../icons/shape.png) no-repeat;
+	}
+}
+.email{
+	position: relative;
+	&::after{
+		content: '';
+		position: absolute;
+		width: 11px;
+		height: 8px;
+		right: 0;
+		top: 28px;
+		background: url(../icons/shape-2.png) no-repeat;
+	}
+}
 .form__block__item--date{
 	border: none;
 }
