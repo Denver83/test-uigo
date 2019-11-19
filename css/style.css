@@ -1,0 +1,191 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  width: 800px;
+  height: 600px;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 auto;
+  font-size: 14px; }
+
+a {
+  text-decoration: none; }
+
+p, ul, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0; }
+
+.login-signup {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60.5px 67px 59.5px 68px; }
+
+.signup__title {
+  width: 137.3px;
+  position: relative;
+  height: 480px;
+  background-color: #5a61ed; }
+
+.signup__title h1 {
+  width: 162px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 63px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: left top 0;
+  -ms-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: absolute;
+  bottom: 22px;
+  left: 68.5px; }
+
+.login-signup__header__title {
+  font-family: Work Sans, sans serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.46px;
+  color: #111111; }
+
+.signup__form__block {
+  display: flex;
+  flex-wrap: wrap; }
+
+.form__block__item {
+  width: 234.5px;
+  border-bottom: 0.7px solid #f2f2f2;
+  padding-bottom: 6.3px;
+  margin-right: 15.1px;
+  margin-bottom: 16.5px; }
+
+.nationality {
+  position: relative; }
+  .nationality::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    right: 0;
+    top: 31px;
+    background: url(../icons/shape.png) no-repeat; }
+
+.day {
+  position: relative; }
+  .day::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    right: 0;
+    top: 28px;
+    background: url(../icons/shape.png) no-repeat; }
+
+.email {
+  position: relative; }
+  .email::after {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 8px;
+    right: 0;
+    top: 28px;
+    background: url(../icons/shape-2.png) no-repeat; }
+
+.form__block__item--date {
+  border: none; }
+
+.form__block__item input {
+  border: none;
+  width: 168px;
+  height: 21px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: top; }
+
+label {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7C7C7C;
+  padding-bottom: 4.9px; }
+
+.block__item--date__wrapper {
+  display: flex; }
+
+.number {
+  border-bottom: 1px solid #f2f2f2;
+  width: 56px;
+  margin-right: 9.8px; }
+
+.month {
+  width: 91px;
+  margin-right: 9.8px;
+  border-bottom: 1px solid #f2f2f2; }
+
+.year {
+  width: 67.7px;
+  border-bottom: 1px solid #f2f2f2; }
+
+.gender {
+  display: flex; }
+
+.gender__wrapper {
+  display: flex;
+  margin-right: 19px; }
+
+.form__block__btns {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32.5px;
+  padding-top: 58.5px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  padding-right: 22px; }
+
+.have_acc {
+  padding-top: 9px; }
+
+.block__btns--login {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  text-decoration: underline; }
+
+.block__btns--complete {
+  padding: 7px 26px 7px 25px;
+  background-color: #5A61ED;
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  margin-right: 22px; }
+
+.signup__block {
+  padding-top: 38.5px;
+  padding-left: 20.8px;
+  width: 527.8px;
+  height: 480px; }
+
+.login-signup__header__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px; }
+
+.login-signup__header__text {
+  padding-bottom: 20px; }
